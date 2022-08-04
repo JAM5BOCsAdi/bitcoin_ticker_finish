@@ -1,3 +1,4 @@
+import 'package:bitcoin_ticker/assets/constants/constants.dart';
 import 'package:bitcoin_ticker/price_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -13,13 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Bitcoin Ticker',
-      theme: ThemeData.dark().copyWith(
-        primaryColor: Colors.lightBlue,
-        scaffoldBackgroundColor: Colors.white,
-        appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.lightBlue,
-        ),
-      ),
+      theme: Constants.kThemeData, // Constants.kSuccessMsg
       home: const PriceScreen(),
     );
   }
