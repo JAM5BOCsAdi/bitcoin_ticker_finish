@@ -1,4 +1,4 @@
-class Lists {
+class CoinDataLists {
   static const List<String> currenciesList = [
     'AUD',
     'BRL',
