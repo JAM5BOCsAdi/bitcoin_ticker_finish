@@ -10,3 +10,8 @@ class Constants {
   );
   // static const String kSuccessMsg = "Will be back soon";
 }
+/*
+class Colours {
+  static const kColour = Colors.black;
+}
+*/

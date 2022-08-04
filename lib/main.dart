@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Bitcoin Ticker',
       theme: Constants.kThemeData, // Constants.kSuccessMsg
+      /* color: Colours.kColour, */
       home: const PriceScreen(),
     );
   }
